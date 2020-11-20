@@ -1,0 +1,114 @@
+.box p {
+
+	width:100px;
+	height: 100px;
+	border-top: 1px solid; 
+	border-top-color:#687291;
+	background-color: #dfe1e7;
+	font-size:40px;
+	font-family: Tahoma;
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.sub_container1{
+display: -webkit-flex;
+flex-direction: row;
+position: fixed;
+align-items: center;
+}
+
+
+.one {
+background-color: #eeeff2;
+box-shadow: 10px 20px 5px 5px green;
+transform: rotate3d(50deg);
+transform: scale(2 5);
+animation-name: my3;
+animation-duration: 4s;
+animation-delay: -2s;
+transform: rotateZ(10deg);
+}
+@keyframes my1 {
+0%   { left:0px; top:0px;}
+25%  {left:400px; top:200px;}
+50%  {left:200px; top:200px;}
+75%  {left:0px; top:200px;}
+}     
+.two {
+background-color: red;
+box-shadow: 10px 20px 5px 5px yellow;
+animation-name: my2;
+animation-duration: 6s;
+}
+
+@keyframes my2 {
+0% {width: 150px;top: 100px;}
+50%{width: 150px; top:0px; }
+100% {width: 0px;top: 100px;}
+from {background-color: red;}
+to {background-color: yellow;}
+}
+.three {
+box-shadow: 10px 20px 5px 5px blue;
+transform: rotate3d(50deg);
+transform: scale(2 5);
+animation-name: my3;
+animation-duration: 8s;
+animation-delay: -2s;
+transform: rotateZ(0deg);
+}
+@keyframes my3 {
+0%   {left:0px; top:0px; transform: rotateZ(0deg);}
+25%  {left:200px; top:0px; transform: rotateZ(100deg);}
+50%  { left:200px; top:200px; transform: rotateZ(200deg);}
+100%  { left:0px; top:200px; transform: rotateZ(0deg);}
+}
+.four{
+box-shadow: 10px 20px 5px 5px red;
+transform: rotate3d(50deg);
+transform: scale(2 5);
+animation-name: my4;
+animation-duration: 8s;
+animation-delay: -2s;
+transform: rotateZ(0deg);
+}
+@keyframes my4 {
+0%   {left:0px; top:0px; transform: rotateZ(0deg);}
+25%  {left:200px; top:0px; transform: rotateZ(400deg);}
+50%  { left:200px; top:200px; transform: rotateZ(200deg);}
+100%  { left:0px; top:200px; transform: rotateZ(0deg);}
+}
+
+.five {
+box-shadow: 10px 20px 5px 5px yellow;
+animation-name: my5;
+animation-duration: 6s;
+background-color: blue;
+}
+
+@keyframes my5 {
+from {background-color:blue;}
+to {background-color: yellow;}
+0% {width: 150px;top: 100px;}
+50%{width: 150px; top:0px; }
+100% {width: 0px;top: 100px;}
+}    
+
+.six {
+box-shadow: 10px 20px 5px 5px green;
+transform: rotate3d(50deg);
+transform: scale(2 5);
+animation-name: my3;
+animation-duration: 4s;
+animation-delay: -2s;
+transform: rotateZ(-10deg);
+}
+
+}
+@keyframes my6 {
+0%   { left:0px; top:0px;}
+25%  {left:400px; top:200px;}
+50%  {left:200px; top:200px;}
+100%  {left:0px; top:0px;}   
+} 
